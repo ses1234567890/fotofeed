@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(199, 196, 196);
+}
+
+#header {
+    text-align: center;
+    background-color: white;
+}
+
+#content {
+    display: flex;
+    max-width: 400px;
+    margin: auto;
+    padding: 50px;
+}
+
+.post-top {
+    background: white;
+    display: flex;
+    padding: 10px 0px 10px 0px;
+}
+
+.post-top h2 {
+    text-align: left;
+    width: 340px;
+    margin-left: 10px;
+}
+
+.post-top p {
+    text-align: right;
+    color: grey;
+    margin: auto;
+}
+
+.post-image img {
+    max-width: 400px;
+    display: block;
+}
+
+.post-desc {
+    background: white;
+    padding: 10px 0px 10px 0px;
+}
+
+.post-desc p {
+    margin: 5px 10px 5px 10px;
+}
